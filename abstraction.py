@@ -33,6 +33,9 @@ Abstraction: implementation Hiding
 example: imagine we have a Airplane class in Airplane simulator and Airplane ticket booking application 
 we have different attributes in Airplane simulator like lattitude, longitude, angle, turbos etc 
 but in Airplane ticket app just mapping of seat number and availble seats. Hiding implementation from the user. :) 
+
+Resources: 
+1. https://medium.com/techtofreedom/abstract-classes-in-python-f49cf4efdb3d
 """
 
 # ABC --> abstract base class and abstract methods
