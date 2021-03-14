@@ -64,14 +64,14 @@ class Animal(ABC):
 
 
 class Dog(Animal):
-    def __init__(self):
-        super().__init__("Candy", 2, "female")
+    def __init__(self, name, age, gender):
+        super().__init__(name, age, gender)
 
     def talk(self):
         print("I barks")
 
 
-dog = Dog()
+dog = Dog("Candy", 2, "female")
 print("{0} is my name and I am {1} old".format(dog.name, dog.age))
 dog.talk()
 
